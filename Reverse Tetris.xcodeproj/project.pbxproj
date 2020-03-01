@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE25434323CAE5E2003A4E48 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE25434223CAE5E2003A4E48 /* Default-568h@2x.png */; };
 		CE2B6A1F23C595970053D981 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B6A1E23C595970053D981 /* MenuScene.swift */; };
 		CE2B6A2123C72D1D0053D981 /* HelpScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B6A2023C72D1D0053D981 /* HelpScene.swift */; };
 		CE50A8DF22DCB77B0041D030 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50A8DE22DCB77B0041D030 /* AppDelegate.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE25434223CAE5E2003A4E48 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CE2B6A1E23C595970053D981 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		CE2B6A2023C72D1D0053D981 /* HelpScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpScene.swift; sourceTree = "<group>"; };
 		CE50A8DB22DCB77B0041D030 /* Reverse Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reverse Tetris.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +65,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE25434423CB035B003A4E48 /* Working Directory */ = {
+			isa = PBXGroup;
+			children = (
+				CEBC8B1A23C82D3C006F8F1A /* Data */,
+				CE2B6A2423C82C3D0053D981 /* Scenes */,
+				CE50A8E022DCB77B0041D030 /* GameScene.sks */,
+				CE50A8DE22DCB77B0041D030 /* AppDelegate.swift */,
+				CE50A8FC22DCC4060041D030 /* Pieces.swift */,
+				CE50A8E222DCB77B0041D030 /* Actions.sks */,
+				CEFF110322E49CF300C272FD /* ParentNode.swift */,
+				CEAB798B23C4BA93009EA680 /* Labels.swift */,
+				CE50A8E622DCB77B0041D030 /* GameViewController.swift */,
+			);
+			path = "Working Directory";
+			sourceTree = "<group>";
+		};
 		CE2B6A2423C82C3D0053D981 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +97,7 @@
 		CE50A8D222DCB77B0041D030 = {
 			isa = PBXGroup;
 			children = (
+				CE25434223CAE5E2003A4E48 /* Default-568h@2x.png */,
 				CE50A8DD22DCB77B0041D030 /* Reverse Tetris */,
 				CE50A8DC22DCB77B0041D030 /* Products */,
 			);
@@ -95,18 +114,10 @@
 		CE50A8DD22DCB77B0041D030 /* Reverse Tetris */ = {
 			isa = PBXGroup;
 			children = (
-				CE2B6A2423C82C3D0053D981 /* Scenes */,
-				CEBC8B1A23C82D3C006F8F1A /* Data */,
-				CE50A8DE22DCB77B0041D030 /* AppDelegate.swift */,
-				CE50A8E022DCB77B0041D030 /* GameScene.sks */,
-				CE50A8E222DCB77B0041D030 /* Actions.sks */,
-				CEFF110322E49CF300C272FD /* ParentNode.swift */,
-				CEAB798B23C4BA93009EA680 /* Labels.swift */,
-				CE50A8FC22DCC4060041D030 /* Pieces.swift */,
-				CE50A8E622DCB77B0041D030 /* GameViewController.swift */,
 				CE50A8E822DCB77B0041D030 /* Main.storyboard */,
-				CEDCCC0B22F984CD0017025A /* Connection.otf */,
 				CE50A8EB22DCB77E0041D030 /* Assets.xcassets */,
+				CEDCCC0B22F984CD0017025A /* Connection.otf */,
+				CE25434423CB035B003A4E48 /* Working Directory */,
 				CE50A8ED22DCB77E0041D030 /* LaunchScreen.storyboard */,
 				CE50A8F022DCB77E0041D030 /* Info.plist */,
 			);
@@ -185,6 +196,7 @@
 				CE50A8E122DCB77B0041D030 /* GameScene.sks in Resources */,
 				CE50A8EC22DCB77E0041D030 /* Assets.xcassets in Resources */,
 				CE50A8EF22DCB77E0041D030 /* LaunchScreen.storyboard in Resources */,
+				CE25434323CAE5E2003A4E48 /* Default-568h@2x.png in Resources */,
 				CE50A8E322DCB77B0041D030 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
